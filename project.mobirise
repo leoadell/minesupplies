@@ -47,7 +47,7 @@
             "sticky": true,
             "collapsed": true,
             "logo": true,
-            "showBrand": true,
+            "showBrand": false,
             "showButtons": true
           },
           "logo": {
@@ -56,9 +56,9 @@
               "src": "@PROJECT_PATH@/assets/images/logo-257x128.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
-              "alt": "Mobirise",
+              "alt": "Minesupplies",
               "link": "http://minesupplies.com.ar/",
-              "title": "",
+              "title": "Mine Supplies",
               "linkInNewWindow": false
             },
             "iconFont": {
@@ -75,58 +75,6 @@
           "brand": "<a class=\"mbr-brand__name text-primary\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
-        },
-        {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "slides": [
-              {
-                "active": true,
-                "image": "images/slide1.jpg",
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "Slide 1",
-                "showText": true,
-                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "images/slide2.jpg",
-                "contentAlign": "left",
-                "showTitle": true,
-                "title": "Slide 2",
-                "showText": true,
-                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "images/slide3.jpg",
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "Slide 3",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              }
-            ],
-            "fullScreen": true,
-            "bgColor": "#ffffff",
-            "showBullets": true
-          },
-          "_anchor": "slider-1",
-          "articleLayout": false
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -164,8 +112,8 @@
               {
                 "active": true,
                 "image": "@PROJECT_PATH@/assets/images/carrousell3-2000x1500.jpg",
-                "contentAlign": "center",
-                "overlay": true,
+                "contentAlign": "left",
+                "overlay": false,
                 "showTitle": true,
                 "title": "Soletange San Juan",
                 "showText": false,
